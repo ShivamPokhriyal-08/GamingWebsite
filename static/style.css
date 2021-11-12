@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    color: white;
+    font-size: 15px;
+}
+
+#logo img{
+    height: 45px;
+}
+
+#navbar{
+background-color: black;
+padding: 11px 27px;
+font-weight: bold;
+}
+
+#navbar ul{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+#navbar li{
+ list-style: none;
+}
+
+#navbar li a{
+text-decoration: none;
+padding: 7px 11px;
+color: white;
+}
+
+#navbar ul li a:hover{
+    color: blue;
+}
+
+#introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+ height:400px;
+ background-color: red;
+ background: url(/static/bg.jpg) center/cover, no-repeat;
+ color: white;
+}
+
+div.small{
+    font-size: 25px;
+    margin-top: 9px;
+}
+
+#topGamesSection{
+    height:350px;
+    margin: auto;
+    width: 67%;
+    display: block;
+}
+
+#topGamesSection h2{
+   text-align: center;
+   padding-top: 19px;
+}
+.card{
+   border: 2px solid black;
+   border-radius: 7px;
+   height: 250px;
+   display: inline-block;
+   width: 31%;
+   margin: 16px 10px;
+}
+
+.card h3{
+text-align: center;
+margin-top: 15px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+   height:100px;
+}
+
+.card-img img{
+    height: 150px; 
+    /* height: inherit; */
+    margin-top: 15px;
+}
+
+#sponserSection{
+ height:300px;
+ background-color: khaki;
+}
+
+#sponserSection h2{
+text-align: center;
+padding-top: 12px;
+font-size: 35px;
+
+}
+
+#sponsers{
+    height:180px;
+    max-width: 1200px;
+    margin: auto;
+}
+.spimg{
+    height: 80%;
+    margin: 5px 5px;
+}
+
+#footer{
+    height:60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+

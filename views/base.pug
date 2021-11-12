@@ -1,0 +1,22 @@
+//- layout or base.pug
+doctype html
+html
+  head
+    title Shivam Gamer World
+    block scripts
+    block style
+  body
+    nav#navbar
+     ul
+      div#logo
+        img(src="/static/img/logo.png")
+        | SGW
+      li #[a(href="/") Home] 
+      li #[a(href="/") About]
+      li #[a(href="/") Services]
+      li #[a(href="/") Purchase]
+      li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer
+     | Copyright © 2021 ShivamGamerWorld.com | All rights reserved
+    

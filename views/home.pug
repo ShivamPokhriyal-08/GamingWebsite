@@ -1,0 +1,38 @@
+//-base.pug is template that serve
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style
+    style
+     include ../static/style.css
+
+block content
+    section#introSection
+     div Welcome To Shivam Gamer World
+     div.small Let's Rock With Crazy Games
+    section#topGamesSection
+     h2 Top 3 Best Mobile Games
+     div.card
+      h3 BGMI
+      div.card-box
+       div.card-img
+        img(src="/static/img/bgmi.png")
+     div.card
+      h3 FREEFIRE
+      div.card-box
+       div.card-img
+        img(src="/static/img/free2.png")
+     div.card
+      h3 COD
+      div.card-box
+       div.card-img
+        img(src="/static/img/cod.png")
+    section#sponserSection
+     h2 Our Sponsers
+     div#sponsers
+      img(src="/static/img/iPhonelogo.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/xiaomi.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/oneplus.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/samsung.png", alt="Sponsers", class="spimg")

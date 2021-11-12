@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.container{
+    height: 80vh;
+}
+
+.myInput{
+   width: 50%;
+   font-size: 14px;
+   padding: 9px;
+   margin:9px;
+   border-radius: 5px;
+   outline: none;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%
+}
+
+.btn{
+    background-color: black;
+    border: 2px solid red;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    margin-top: 15px;
+    font-size: 19px;
+    cursor: pointer;
+}

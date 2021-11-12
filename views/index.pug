@@ -1,0 +1,52 @@
+//- making website with the help of pug
+doctype html
+html
+  head
+   title Shivam Gamer World
+   style
+    include ../static/style.css
+  body
+    nav#navbar
+     ul
+      div#logo
+        img(src="/static/img/logo.png")
+        | SGW
+      li #[a(href="/") Home] 
+      li #[a(href="/") About]
+      li #[a(href="/") Services]
+      li #[a(href="/") Purchase]
+      li #[a(href="/") Contact Us]
+    section#introSection
+     div Welcome To Shivam Gamer World
+     div.small Let's Rock With Crazy Games
+    section#topGamesSection
+     h2 Top 3 Best Mobile Games
+     div.card
+      h3 BGMI
+      div.card-box
+       div.card-img
+        img(src="/static/img/bgmi.png")
+     div.card
+      h3 FREEFIRE
+      div.card-box
+       div.card-img
+        img(src="/static/img/free2.png")
+     div.card
+      h3 COD
+      div.card-box
+       div.card-img
+        img(src="/static/img/cod.png")
+    section#sponserSection
+     h2 Our Sponsers
+     div#sponsers
+      img(src="/static/img/iPhonelogo.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/xiaomi.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/oneplus.png", alt="Sponsers", class="spimg")
+      img(src="/static/img/samsung.png", alt="Sponsers", class="spimg")
+    footer#footer
+     | Copyright © 2021 ShivamGamerWorld.com | All rights reserved
+    script
+      include ../static/index.js
+
+
+

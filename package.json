@@ -1,0 +1,17 @@
+{
+  "name": "gaming",
+  "version": "1.0.0",
+  "description": "This is a website for a mobile games lover",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam bhai",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "pug": "^3.0.2"
+  }
+}
